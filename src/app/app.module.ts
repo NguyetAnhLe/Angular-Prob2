@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LikeNgIfDirective } from './like-ng-if.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LikeNgIfDirective
   ],
   imports: [
     BrowserModule
@@ -13,4 +15,5 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
